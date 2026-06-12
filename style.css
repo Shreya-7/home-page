@@ -1,21 +1,85 @@
-:root {
-  --paper: #f3ece0;
-  --paper-shadow: #e6dcc8;
-  --ink: #2a2622;
-  --ink-soft: #6b6258;
-  --accent: #b8392a;
-  --accent-soft: #d8867a;
+/* themes — picked randomly by the inline script in index.html.
+   :root values are the no-JS fallback (blueprint). */
+:root,
+.theme-blueprint {
+  --paper: #dbe5ec;
+  --paper-shadow: #c5d1da;
+  --ink: #1f3142;
+  --ink-soft: #5a6878;
+  --accent: #c44a1a;
+  --accent-soft: #e08560;
 }
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --paper: #1c1a17;
-    --paper-shadow: #100f0d;
-    --ink: #e9e2d3;
-    --ink-soft: #8b8479;
-    --accent: #e87a66;
-    --accent-soft: #b8554a;
-  }
+.theme-sage {
+  --paper: #e4e6d8;
+  --paper-shadow: #d0d3bf;
+  --ink: #2d3328;
+  --ink-soft: #6a705f;
+  --accent: #a44a35;
+  --accent-soft: #c97e6a;
+}
+.theme-riso {
+  --paper: #f4dfd6;
+  --paper-shadow: #e8c9bc;
+  --ink: #2a1f3d;
+  --ink-soft: #6a5f7a;
+  --accent: #1a8a82;
+  --accent-soft: #5db5af;
+}
+.theme-warm {
+  --paper: #ede4d0;
+  --paper-shadow: #ddd2b8;
+  --ink: #22201c;
+  --ink-soft: #6b6258;
+  --accent: #1f6a6a;
+  --accent-soft: #5a9c9c;
+}
+.theme-lavender {
+  --paper: #e6dfee;
+  --paper-shadow: #d3cae0;
+  --ink: #2e2440;
+  --ink-soft: #6a607a;
+  --accent: #b87a1a;
+  --accent-soft: #d6a85a;
+}
+.theme-mint {
+  --paper: #dfeae0;
+  --paper-shadow: #c8d8c9;
+  --ink: #1c3a32;
+  --ink-soft: #5a766c;
+  --accent: #d65a5a;
+  --accent-soft: #e89090;
+}
+.theme-buttercream {
+  --paper: #f3ead0;
+  --paper-shadow: #e4d8b6;
+  --ink: #3a2e1f;
+  --ink-soft: #7a6a55;
+  --accent: #7a3d8a;
+  --accent-soft: #a875b5;
+}
+.theme-slate {
+  --paper: #d8dde0;
+  --paper-shadow: #c0c6ca;
+  --ink: #1a1d20;
+  --ink-soft: #5a6066;
+  --accent: #d68a1a;
+  --accent-soft: #e8b560;
+}
+.theme-rose {
+  --paper: #ecd6d0;
+  --paper-shadow: #dabcb4;
+  --ink: #3d1e26;
+  --ink-soft: #7a5a60;
+  --accent: #5a7a4e;
+  --accent-soft: #8aa580;
+}
+.theme-terracotta {
+  --paper: #e6c8a8;
+  --paper-shadow: #d4b08c;
+  --ink: #3d2618;
+  --ink-soft: #7a5a44;
+  --accent: #2a3d6a;
+  --accent-soft: #6075a0;
 }
 
 * { box-sizing: border-box; }

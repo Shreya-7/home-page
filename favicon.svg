@@ -1,13 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
   <style>
-    .bg { fill: #f3ece0; }
-    .mark { stroke: #b8392a; }
+    .mark { stroke: #222222; }
     @media (prefers-color-scheme: dark) {
-      .bg { fill: #1c1a17; }
-      .mark { stroke: #e87a66; }
+      .mark { stroke: #e9e2d3; }
     }
   </style>
-  <rect class="bg" width="32" height="32" rx="6" />
   <path class="mark"
         d="M 6 18 Q 10 11, 16 18 T 26 18"
         fill="none"

@@ -4,6 +4,16 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>~/ home</title>
+  <script>
+    (() => {
+      const themes = ["blueprint", "sage", "riso", "warm", "lavender", "mint", "buttercream", "slate", "rose", "terracotta"];
+      const forced = new URLSearchParams(location.search).get("theme");
+      const pick = themes.includes(forced)
+        ? forced
+        : themes[Math.floor(Math.random() * themes.length)];
+      document.documentElement.classList.add("theme-" + pick);
+    })();
+  </script>
   <link rel="icon" type="image/svg+xml" href="favicon.svg" />
   <link rel="apple-touch-icon" href="apple-touch-icon.svg" />
   <link rel="stylesheet" href="style.css" />
