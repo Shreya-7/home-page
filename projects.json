@@ -1,0 +1,73 @@
+{
+  "ours": [
+    {
+      "path": "./stash",
+      "url": "https://shreya-7.github.io/stash/",
+      "desc": "notes, half-thoughts, occasional essays",
+      "status": "live",
+      "meta": [
+        { "label": "gh", "url": "https://github.com/Shreya-7/stash" },
+        { "label": "discord", "url": "https://discord.com/channels/1058063473269022750/1505186900426883122" }
+      ]
+    },
+    {
+      "path": "./strik",
+      "url": "#",
+      "desc": "tiny habits, tracked",
+      "status": "wip",
+      "meta": [
+        { "label": "gh", "url": "#" }
+      ]
+    },
+    {
+      "path": "./moments",
+      "url": "#",
+      "desc": "a slow memory log",
+      "status": "dormant",
+      "meta": [
+        { "label": "gh", "url": "https://github.com/Shreya-7/saas-diary" },
+        { "label": "discord", "url": "https://discord.com/channels/1058063473269022750/1319261703069892668" }
+      ]
+    },
+    {
+      "path": "./almirah",
+      "url": "#",
+      "desc": "closet, cataloged",
+      "status": "dormant",
+      "meta": [
+        { "label": "gh ui", "url": "https://github.com/Shreya-7/wardrobe-ui" },
+        { "label": "gh api", "url": "https://github.com/abhishekmsingh/wardrobe-api" },
+        { "label": "discord", "url": "https://discord.com/channels/1058063473269022750/1127555523454173275"},
+        { "label": "docs", "url": "https://github.com/abhishekmsingh/wardrobe-api/wiki" }
+      ]
+    },
+    {
+      "path": "./digital-scrapbook",
+      "url": "#",
+      "desc": "photo albums",
+      "status": "live",
+      "meta": [
+        { "label": "gh", "url": "https://github.com/Shreya-7/digital-scrapbook" }
+      ]
+    }
+  ],
+  "hosted": [
+    {
+      "path": "./mealie",
+      "url": "#",
+      "desc": "recipes",
+      "status": "dormant",
+      "meta": [
+      ]
+    },
+    {
+      "path": "./jellyfin",
+      "url": "#",
+      "desc": "placeholder",
+      "status": "dormant",
+      "meta": [
+        { "label": "discord", "url": "https://discord.com/channels/1058063473269022750/1396400508079575132" }
+      ]
+    }
+  ]
+}

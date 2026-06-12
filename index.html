@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>~/ home</title>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <link rel="apple-touch-icon" href="apple-touch-icon.svg" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main>
+    <header class="masthead">
+      <h1>
+        <span class="prompt">~</span><span class="caret">/</span> home
+      </h1>
+      <p class="tagline">
+        a small index of things we make
+        <svg class="squiggle" viewBox="0 0 120 8" aria-hidden="true">
+          <path d="M2 4 Q 10 0, 20 4 T 40 4 T 60 4 T 80 4 T 100 4 T 118 4"
+                fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>
+        </svg>
+      </p>
+    </header>
+
+    <section class="group">
+      <h2><span class="bracket">[</span> ours <span class="bracket">]</span></h2>
+      <ul class="listing" data-group="ours"></ul>
+    </section>
+
+    <section class="group">
+      <h2><span class="bracket">[</span> hosted <span class="bracket">]</span></h2>
+      <ul class="listing" data-group="hosted"></ul>
+    </section>
+
+    <footer>
+      <svg class="rule" viewBox="0 0 400 6" aria-hidden="true" preserveAspectRatio="none">
+        <path d="M1 3 Q 50 0, 100 3 T 200 3 T 300 3 T 399 3"
+              fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round"/>
+      </svg>
+      <p>made at home <span class="aster">*</span></p>
+    </footer>
+  </main>
+  <script src="render.js"></script>
+</body>
+</html>
