@@ -71,5 +71,18 @@
         { "label": "discord", "url": "https://discord.com/channels/1058063473269022750/1396400508079575132" }
       ]
     }
+  ],
+  "more": [
+    {
+      "path": "./hecker-news",
+      "url": "#",
+      "desc": "a random short poem",
+      "status": "dormant",
+      "meta": [
+        {
+          "label": "gh", "url": "https://github.com/Shreya-7/hecker-news"
+        }
+      ]
+    }
   ]
 }

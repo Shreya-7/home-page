@@ -4,7 +4,11 @@ A small index page for our projects.
 
 ## Adding a project
 
-Edit [`projects.json`](projects.json). Append an object to either `ours` or `hosted`:
+Edit [`projects.json`](projects.json). Append an object to one of three groups:
+
+- `ours` — our active projects (always visible)
+- `hosted` — third-party services we self-host (always visible)
+- `more` — archived projects and experiments (collapsed by default, click `[ more ]` to expand)
 
 ```json
 {

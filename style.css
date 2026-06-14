@@ -162,6 +162,56 @@ h2 {
 
 .bracket { color: var(--accent); }
 
+/* collapsible group */
+.collapsible .group-toggle {
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0 0 1rem;
+  cursor: pointer;
+  color: inherit;
+  font: inherit;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  width: 100%;
+  text-align: left;
+}
+.collapsible .group-toggle h2 {
+  margin: 0;
+}
+.collapsible .group-toggle:focus-visible {
+  outline: none;
+}
+.group-toggle-icon {
+  color: var(--ink-soft);
+  opacity: 0.6;
+  font-size: 0.95rem;
+  line-height: 1;
+  transition: transform 0.2s ease, color 0.15s ease, opacity 0.15s ease;
+}
+.collapsible .group-toggle:hover .group-toggle-icon,
+.collapsible .group-toggle:focus-visible .group-toggle-icon {
+  color: var(--accent);
+  opacity: 1;
+}
+.collapsible[data-open="true"] .group-toggle-icon {
+  transform: rotate(45deg);
+  color: var(--accent);
+  opacity: 1;
+}
+.group-body {
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows 0.2s ease;
+}
+.collapsible[data-open="true"] .group-body {
+  grid-template-rows: 1fr;
+}
+.group-body > * {
+  overflow: hidden;
+}
+
 /* listing */
 .listing {
   list-style: none;

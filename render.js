@@ -62,6 +62,17 @@
     });
   };
 
+  const wireGroupToggles = () => {
+    document.querySelectorAll(".collapsible .group-toggle").forEach((btn) => {
+      btn.addEventListener("click", () => {
+        const section = btn.closest(".collapsible");
+        const open = section.dataset.open === "true";
+        section.dataset.open = String(!open);
+        btn.setAttribute("aria-expanded", String(!open));
+      });
+    });
+  };
+
   const showLoadError = () => {
     const first = document.querySelector("[data-group]");
     if (!first) return;
@@ -79,6 +90,7 @@
         ul.innerHTML = items.map(renderProject).join("");
       });
       wireToggles();
+      wireGroupToggles();
     })
     .catch((err) => {
       console.error("failed to load projects.json", err);
