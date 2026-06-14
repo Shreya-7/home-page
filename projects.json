@@ -16,8 +16,8 @@
       "desc": "tiny habits, tracked",
       "status": "wip",
       "meta": [
-        { "label": "gh", "url": "https://github.com/abhishekmsingh/strik" }
-        { "label": "supabase", "url": "https://supabase.com/dashboard/project/iqslsomiykiuhygyhbef" }
+        { "label": "gh", "url": "https://github.com/abhishekmsingh/strik" },
+        { "label": "supabase", "url": "https://supabase.com/dashboard/project/iqslsomiykiuhygyhbef" },
         { "label": "vercel", "url": "https://vercel.com/abhiandthetruths-projects/strik" }
       ]
     },
