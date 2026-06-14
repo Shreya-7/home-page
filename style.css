@@ -352,8 +352,19 @@ footer {
   margin-bottom: 0.8rem;
 }
 
-footer p { margin: 0; }
+footer p {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
 .aster { color: var(--accent); }
+
+.repo {
+  display: inline-flex;
+  align-items: center;
+}
+.repo:focus-visible { outline: none; }
 
 /* mobile */
 @media (max-width: 520px) {
